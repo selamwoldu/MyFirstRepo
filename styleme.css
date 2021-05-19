@@ -1,0 +1,67 @@
+body{
+    background-color:rgba(0, 0, 0, 0.884);
+    /* background-image: url("selam.jpg");
+    background-repeat: repeat-x; */
+}
+h1{
+    font-weight: bold;
+    font: size 14vw;;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    text-shadow:1px 3px gray;
+
+}
+h2{
+    font-size:x-large;
+    font-weight: lighter;
+}
+h1 , h2{
+    color: blue;
+}
+
+a:link{
+    color:green;
+    text-decoration-line: none;
+
+    
+}
+
+a:visited { 
+    color:red; 
+}
+
+a:hover{
+    text-decoration-line:underline;
+}
+
+strong{
+    color:yellowgreen;
+}
+
+div.shout{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+span{
+    color: whitesmoke;
+}
+
+hr{
+    color: white;
+}
+
+#listmovie{
+    font-style: italic;
+}
+
+p::first-letter {
+    font-variant:small-caps;
+    font-size: x-large;
+  }
+
+dt{
+    color:yellow
+    
+}
