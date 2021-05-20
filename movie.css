@@ -115,14 +115,15 @@ body {
 
   .footer {
     opacity: 0.50;
-    position : absolute;
     right: 0;
     bottom: 0;
+    position: fixed;
      
   } 
 
   .a{
       display: block;
+      
   }
 
  
