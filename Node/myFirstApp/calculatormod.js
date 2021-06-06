@@ -21,6 +21,9 @@ exports.displays=function(req,res,vals){
     res.write("<p>The result is: ");
           res.write(String(result));
     res.write("</p>");
+    res.write(
+        "<a href='calculator.html'>Another calculation</a>"
+      );
     res.write("</body>");
     res.write("</html>");
     return res.end();
