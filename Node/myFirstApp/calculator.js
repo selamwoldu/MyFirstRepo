@@ -33,7 +33,7 @@ fs.readFile(filename, function(err, data) { if (err) {
 res.writeHead(404, {'Content-Type': 'text/html'});
       return res.end("404 Not Found");
     }
-res.writeHead(200); // Content-Type not included 
+res.writeHead(200,{'Content-Type': 'text/css'}); // Content-Type not included 
 res.write(data);
 return res.end();
   });
