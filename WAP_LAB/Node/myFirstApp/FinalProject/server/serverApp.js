@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname,'../','client')));
  
 
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "../client/index.html");
+    res.sendFile(__dirname + "../client/dic.html");
    
   });
 var corsOptions={

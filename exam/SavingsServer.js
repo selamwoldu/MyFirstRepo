@@ -107,6 +107,7 @@ app.post('/', function (req, res) {
             console.log(deposit);
           //  res.status(200).send(data)
         });
+        
         var sql1 = "UPDATE accounts SET balance = '" + deposit + "' WHERE name = '" + name + "'";
         con.query(sql1, function (err, data, fields) {
             if (err) throw err;
